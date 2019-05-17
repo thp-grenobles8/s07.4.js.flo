@@ -7,7 +7,7 @@ function script_7(){
   console.log("|             Script n°7             |");
   console.log("|____________________________________|\n\n");
   question = prompt("Que veux tu dire à l'Acné-bot ?");
-  if (question.indexOf("?") !== -1) {
+  if (question.indexOf("?") === (question.length - 1)) {
     console.log("Ouais Ouais...");
   }else if (question === question.toUpperCase() && question !== "") {
     console.log("Pwa, calme-toi...");
